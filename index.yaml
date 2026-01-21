@@ -1,5 +1,29 @@
 apiVersion: v1
 entries:
+  inji-certify:
+  - apiVersion: v2
+    created: "2026-01-21T14:29:21.162811038Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for inji certify service
+    digest: 3afc5bb0136e670cf2cb8ffeb6166007761217e8035c6b4ed77c7eca69fb0ce3
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - inji-certify
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: inji-certify
+    type: application
+    urls:
+    - https://inji.github.io/helm/inji-certify-0.0.1-develop.tgz
+    version: 0.0.1-develop
   inji-verify-service:
   - apiVersion: v2
     created: "2026-01-21T11:44:33.217195146Z"
@@ -48,4 +72,4 @@ entries:
     urls:
     - https://inji.github.io/helm/inji-verify-ui-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-01-21T11:44:33.215099436Z"
+generated: "2026-01-21T14:29:21.161212036Z"
