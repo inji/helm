@@ -95,4 +95,27 @@ entries:
     urls:
     - https://inji.github.io/helm/injiweb-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-01-22T06:36:17.793896163Z"
+  mimoto:
+  - apiVersion: v2
+    created: "2026-01-28T10:02:20.780038434Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for MOSIP mimoto Application
+    digest: 34d9ccc9deee30c6c4f6afc30fdb40db80a3a0a79b5b65f462eb2db86523d0d4
+    home: https://inji.io
+    keywords:
+    - mosip
+    - mimoto
+    maintainers:
+    - email: info@inji.io
+      name: INJI
+    name: mimoto
+    type: application
+    urls:
+    - https://inji.github.io/helm/mimoto-0.0.1-develop.tgz
+    version: 0.0.1-develop
+generated: "2026-01-28T10:02:20.778197148Z"
