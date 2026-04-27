@@ -280,6 +280,28 @@ entries:
     - https://inji.github.io/helm/injiweb-0.17.0.tgz
     version: 0.17.0
   - apiVersion: v2
+    created: "2026-04-27T12:40:42.703777921Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for INJI injiweb UI module
+    digest: cae0a212fdc9bdcddc985c0e4be95bc5e5050e4a0037f41a1a44ae543e07c05d
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji-web
+    maintainers:
+    - email: info@inji.io
+      name: INJI
+    name: injiweb
+    type: application
+    urls:
+    - https://inji.github.io/helm/injiweb-0.17.0-develop.tgz
+    version: 0.17.0-develop
+  - apiVersion: v2
     created: "2026-03-13T08:29:34.802307405Z"
     dependencies:
     - name: common
@@ -456,4 +478,4 @@ entries:
     urls:
     - https://inji.github.io/helm/mimoto-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-04-27T10:48:54.652752834Z"
+generated: "2026-04-27T12:40:42.702106496Z"
