@@ -72,6 +72,29 @@ entries:
     version: 0.0.1-develop
   inji-verify-service:
   - apiVersion: v2
+    created: "2026-05-05T08:27:23.553915986Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Inji's verify service module
+    digest: d1452e010c3c144770d598c9733873d90fce37744b4e70192416fc100c0eee26
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - inji-verify-service
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: inji-verify-service
+    type: application
+    urls:
+    - https://inji.github.io/helm/inji-verify-service-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
     created: "2026-04-16T13:35:30.485749859Z"
     dependencies:
     - name: common
@@ -164,6 +187,29 @@ entries:
     - https://inji.github.io/helm/inji-verify-service-0.0.1-develop.tgz
     version: 0.0.1-develop
   inji-verify-ui:
+  - apiVersion: v2
+    created: "2026-05-05T08:27:23.555436542Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Inji's verify ui module
+    digest: 704c6e07352df91ea508807bfa490724ca1d7859e38fcfff3ce3b58e7b4e2a6f
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - inji-verify-ui
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: inji-verify-ui
+    type: application
+    urls:
+    - https://inji.github.io/helm/inji-verify-ui-0.18.0.tgz
+    version: 0.18.0
   - apiVersion: v2
     created: "2026-04-16T13:35:30.48727779Z"
     dependencies:
@@ -478,4 +524,4 @@ entries:
     urls:
     - https://inji.github.io/helm/mimoto-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-04-27T12:41:21.54323762Z"
+generated: "2026-05-05T08:27:23.552226878Z"
