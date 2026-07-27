@@ -94,7 +94,7 @@ entries:
     - https://inji.github.io/helm/inji-certify-0.14.0-develop.tgz
     version: 0.14.0-develop
   - apiVersion: v2
-    created: "2026-06-18T10:34:12.113092043Z"
+    created: "2026-07-27T10:01:56.068125056Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -102,7 +102,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for inji certify service
-    digest: c20439c69020d67c7b0abd3792feee127d8dcb07998a1b3e7acec8185d44817a
+    digest: a9b89e658993c421f37f64ec7b07a7a07815f7d42a3cfe960ef8f3e0b65bc646
     home: https://inji.io
     keywords:
     - mosip
@@ -822,4 +822,4 @@ entries:
     urls:
     - https://inji.github.io/helm/mimoto-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-07-27T10:01:37.367719076Z"
+generated: "2026-07-27T10:01:56.06635822Z"
