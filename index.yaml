@@ -164,6 +164,29 @@ entries:
     - https://inji.github.io/helm/inji-verify-service-1.0.0-alpha.1-develop.tgz
     version: 1.0.0-alpha.1-develop
   - apiVersion: v2
+    created: "2026-08-04T11:56:57.810285153Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Inji's verify service module
+    digest: 18be30c7e5802d25c273ea1a4b1f9a81e2b3bba634a3d4703b796dc18e7e86f2
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - inji-verify-service
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: inji-verify-service
+    type: application
+    urls:
+    - https://inji.github.io/helm/inji-verify-service-1.0.0-alpha.1.tgz
+    version: 1.0.0-alpha.1
+  - apiVersion: v2
     created: "2026-07-13T07:17:52.92609104Z"
     dependencies:
     - name: common
@@ -394,6 +417,29 @@ entries:
     urls:
     - https://inji.github.io/helm/inji-verify-ui-1.0.0-alpha.1-develop.tgz
     version: 1.0.0-alpha.1-develop
+  - apiVersion: v2
+    created: "2026-08-04T11:56:57.8117627Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Inji's verify ui module
+    digest: 9e8d133ccde19b477bd29d601d0f65a8db1cec1613e7726ca6287bafbec1ce44
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - inji-verify-ui
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: inji-verify-ui
+    type: application
+    urls:
+    - https://inji.github.io/helm/inji-verify-ui-1.0.0-alpha.1.tgz
+    version: 1.0.0-alpha.1
   - apiVersion: v2
     created: "2026-07-13T07:17:52.92759655Z"
     dependencies:
@@ -845,4 +891,4 @@ entries:
     urls:
     - https://inji.github.io/helm/mimoto-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-08-03T08:06:41.726191977Z"
+generated: "2026-08-04T11:56:57.808652337Z"
