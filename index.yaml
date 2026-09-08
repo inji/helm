@@ -980,4 +980,52 @@ entries:
     urls:
     - https://inji.github.io/helm/mimoto-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-09-04T07:47:50.676866544Z"
+  truckpass-ui:
+  - apiVersion: v2
+    created: "2026-09-08T09:31:45.772204664Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Inji Truckpass UI
+    digest: fbc9d5f6b32ca7b73c4d65d859ab063d7faf4db85d5502e2f0bb19cf2baa1958
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - truckpass
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: truckpass-ui
+    type: application
+    urls:
+    - https://inji.github.io/helm/truckpass-ui-0.0.1-develop.tgz
+    version: 0.0.1-develop
+  truckpass-usecase:
+  - apiVersion: v2
+    created: "2026-09-08T09:31:45.77377306Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Truckpass use-case
+    digest: ffc21ab9ea6342de9ea2a847b4b056fe83ed5e7b686448dd97042edad9888f05
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - truckpass-usecase
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: truckpass-usecase
+    type: application
+    urls:
+    - https://inji.github.io/helm/truckpass-usecase-0.0.1-develop.tgz
+    version: 0.0.1-develop
+generated: "2026-09-08T09:31:45.769757137Z"
