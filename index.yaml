@@ -417,7 +417,7 @@ entries:
     - https://inji.github.io/helm/inji-verify-service-0.17.0-develop.tgz
     version: 0.17.0-develop
   - apiVersion: v2
-    created: "2026-08-31T09:20:28.147437983Z"
+    created: "2026-09-17T13:11:02.036265344Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -425,7 +425,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for Inji's verify service module
-    digest: be17c4694d5ad9c7d8348a91010098c855e90b9278b06c4e147899db2088ce0d
+    digest: 83d6c1ebe70508597335bc347d45caca65f8f8d891d67d5e6c11530a4dba9e4a
     home: https://inji.io
     keywords:
     - mosip
@@ -694,7 +694,7 @@ entries:
     - https://inji.github.io/helm/inji-verify-ui-0.17.0-develop.tgz
     version: 0.17.0-develop
   - apiVersion: v2
-    created: "2026-08-31T09:20:28.148778446Z"
+    created: "2026-09-17T13:11:02.037491589Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -702,7 +702,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for Inji's verify ui module
-    digest: 807cc0889697976a28d975df786d13ed68030a7b2bed34369a61e17df998f2f3
+    digest: c5114b1a5e273778869d782ed742a488d8f2d18eccd6f074953259ece56cc96b
     home: https://inji.io
     keywords:
     - mosip
@@ -1074,4 +1074,4 @@ entries:
     urls:
     - https://inji.github.io/helm/truckpass-usecase-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-09-17T10:09:40.800192259Z"
+generated: "2026-09-17T13:11:02.034888972Z"
