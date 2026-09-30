@@ -440,7 +440,7 @@ entries:
     - https://inji.github.io/helm/inji-verify-service-0.17.0-develop.tgz
     version: 0.17.0-develop
   - apiVersion: v2
-    created: "2026-09-17T13:11:02.036265344Z"
+    created: "2026-09-30T09:27:11.600036799Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -448,7 +448,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for Inji's verify service module
-    digest: 83d6c1ebe70508597335bc347d45caca65f8f8d891d67d5e6c11530a4dba9e4a
+    digest: ab9c901954342bf7cb406493c78cd49cc7bee53214cd35d124f76322c3ac9fa7
     home: https://inji.io
     keywords:
     - mosip
@@ -717,7 +717,7 @@ entries:
     - https://inji.github.io/helm/inji-verify-ui-0.17.0-develop.tgz
     version: 0.17.0-develop
   - apiVersion: v2
-    created: "2026-09-17T13:11:02.037491589Z"
+    created: "2026-09-30T09:27:11.601012583Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -725,7 +725,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for Inji's verify ui module
-    digest: c5114b1a5e273778869d782ed742a488d8f2d18eccd6f074953259ece56cc96b
+    digest: ce7c60a002de0368731ae302adb886c246cd8380c517348c1d10d4ffd194850f
     home: https://inji.io
     keywords:
     - mosip
@@ -738,6 +738,57 @@ entries:
     type: application
     urls:
     - https://inji.github.io/helm/inji-verify-ui-0.0.1-develop.tgz
+    version: 0.0.1-develop
+  inji-verify-uitestrig:
+  - apiVersion: v2
+    created: "2026-09-30T09:27:11.60266193Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to deploy UITESTRIG for Inji Verify UI
+    digest: 9fe838aaf3cadbfb5ef9097141c68e6434195713c0f2b24ca7f0cea055f46e49
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - inji-verify
+    - uitestrig
+    - testrig
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: inji-verify-uitestrig
+    type: application
+    urls:
+    - https://inji.github.io/helm/inji-verify-uitestrig-0.0.1-develop.tgz
+    version: 0.0.1-develop
+  injiverify-apitestrig:
+  - apiVersion: v2
+    created: "2026-09-30T09:27:11.603733519Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart to deploy APITESTRIG for Inji Verify
+    digest: 363bbcb7cd4e0ad848e365c6ee1df67e033161dfe543dd69a914abbd1642fd5d
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - inji-verify
+    - apitestrig
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: injiverify-apitestrig
+    type: application
+    urls:
+    - https://inji.github.io/helm/injiverify-apitestrig-0.0.1-develop.tgz
     version: 0.0.1-develop
   injiweb:
   - apiVersion: v2
@@ -1141,4 +1192,4 @@ entries:
     urls:
     - https://inji.github.io/helm/truckpass-usecase-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-09-23T10:07:03.810500143Z"
+generated: "2026-09-30T09:27:11.59892539Z"
