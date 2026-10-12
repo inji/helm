@@ -2,6 +2,29 @@ apiVersion: v1
 entries:
   inji-certify:
   - apiVersion: v2
+    created: "2026-10-12T07:37:32.079714904Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for inji certify service
+    digest: 0d2b9236ab4638a164b95abf3ff9c0c74e559c98a0484a07d4bd686e27b47d7c
+    home: https://inji.io
+    keywords:
+    - mosip
+    - inji
+    - inji-certify
+    maintainers:
+    - email: info@mosip.io
+      name: INJI
+    name: inji-certify
+    type: application
+    urls:
+    - https://inji.github.io/helm/inji-certify-1.0.0-rc.2-develop.tgz
+    version: 1.0.0-rc.2-develop
+  - apiVersion: v2
     created: "2026-06-18T10:34:13.667499519Z"
     dependencies:
     - name: common
@@ -1310,4 +1333,4 @@ entries:
     urls:
     - https://inji.github.io/helm/truckpass-usecase-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-10-06T04:51:02.722457361Z"
+generated: "2026-10-12T07:37:32.078640011Z"
