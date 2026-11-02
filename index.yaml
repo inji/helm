@@ -1274,6 +1274,28 @@ entries:
     version: 0.0.1-develop
   mimoto:
   - apiVersion: v2
+    created: "2026-11-02T14:07:34.21935999Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for INJI mimoto Application
+    digest: 71b1296c08122c63b1af24aa679fdb041b00c86097103349adb8a386da2bcf31
+    home: https://inji.io
+    keywords:
+    - mosip
+    - mimoto
+    maintainers:
+    - email: info@inji.io
+      name: INJI
+    name: mimoto
+    type: application
+    urls:
+    - https://inji.github.io/helm/mimoto-1.0.0-rc.2-develop.tgz
+    version: 1.0.0-rc.2-develop
+  - apiVersion: v2
     created: "2026-10-01T05:02:58.915982016Z"
     dependencies:
     - name: common
@@ -1497,4 +1519,4 @@ entries:
     urls:
     - https://inji.github.io/helm/truckpass-usecase-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-10-27T04:30:23.330129987Z"
+generated: "2026-11-02T14:07:34.218179177Z"
