@@ -1192,7 +1192,7 @@ entries:
     version: 0.0.1-develop
   injiweb:
   - apiVersion: v2
-    created: "2026-11-17T11:04:23.367463528Z"
+    created: "2026-11-17T11:46:12.174683606Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -1200,7 +1200,7 @@ entries:
       - bitnami-common
       version: 1.x.x
     description: A Helm chart for INJI injiweb UI module
-    digest: 1b509b25ca37ee8c25341763431f26e71279ea06ef0cb7418e54788915138331
+    digest: 49e68d061db4ba403189d72c8ee3e7700c2bf83b64d5aa672677b1165a1bfe20
     home: https://inji.io
     keywords:
     - mosip
@@ -1636,4 +1636,4 @@ entries:
     urls:
     - https://inji.github.io/helm/truckpass-usecase-0.0.1-develop.tgz
     version: 0.0.1-develop
-generated: "2026-11-17T11:04:23.366118131Z"
+generated: "2026-11-17T11:46:12.173251476Z"
